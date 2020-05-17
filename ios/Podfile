@@ -77,6 +77,10 @@ target 'realstate_notifications' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
   target 'realstate_notificationsTests' do
     inherit! :complete
     # Pods for testing
